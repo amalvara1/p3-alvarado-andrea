@@ -36,6 +36,7 @@ p {
 
 header {
     background: #9BD1CC;
+    z-index: 100;
 }
 
 .logo {
@@ -89,10 +90,14 @@ header nav a {
 
 .hero-button {
     position: absolute;
-    top: 100px;
+    text-align: center;
+    top: 1000px;
     color: #3D3C36;
-    padding: 350px 50px;
     font-weight: bold;
+    background: hotpink;
+    opacity: 80%;
+    border-radius: 5px;
+    
 }
 
 

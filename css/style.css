@@ -4,12 +4,19 @@
     border: 0;
 }
 
+.contatiner {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 
 
 
-.hero img{
-    height: 40%;
+
+.hero img {
+    height: 50%;
     max-width: 100%;
+    background-position: center;
+    background-size: cover;
     position: relative;
 }

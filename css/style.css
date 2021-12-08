@@ -20,8 +20,19 @@ h1,
 h2,
 h3,
 p {
-    margin: 10px 0;
+   margin: 10px 0;
 }
+
+p {
+    line-height: 150%;
+}
+
+/*=======================
+
+
+    Header Nav Styling
+
+========================*/
 
 header {
     background: #9BD1CC;
@@ -55,13 +66,35 @@ header nav a {
     margin: 0 18px;
 }
 
+/*========================
+
+    Hero Styling
+
+
+=========================*/
+
 .hero img {
-    height: 50%;
-    max-width: 100%;
+    height: 40%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
+.hero {
+    width: 100%
+    text-align: center;
+    color: white;
+}
+
+.hero-button {
+    position: absolute;
+    top: 100px;
+    color: #3D3C36;
+    padding: 350px 50px;
+    font-weight: bold;
+}
+
 
 .welcome {
     margin: 80px;
@@ -99,9 +132,24 @@ section.top-sellers {
     text-align: left;
 }
 
+/*=======================
+
+    Footer Styling
+
+=======================*/
+
+
+
 footer {
     background: #BFEA86;
     opacity: 80%;
     height: 45%;
     padding: 80px;
+
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+
 }

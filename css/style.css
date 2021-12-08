@@ -158,3 +158,44 @@ ul {
     font-weight: bold;
 
 }
+
+/*==========================
+
+
+    About Page Styling
+
+===========================*/
+
+.about-header {
+    background: #D3BBD4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================
+
+    Contact Page Styling
+
+============================*/
+
+.contact-header {
+    background: #F9B775;
+}

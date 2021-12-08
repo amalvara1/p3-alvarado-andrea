@@ -10,8 +10,37 @@
 }
 
 
+header {
+    background: #9BD1CC;
+}
 
+.logo {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+}
 
+header nav {
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    position: relative;
+    top: 40px;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: #F2EFE2;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 30px;
+}
 
 .hero img {
     height: 50%;

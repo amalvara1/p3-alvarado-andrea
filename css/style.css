@@ -18,9 +18,17 @@ Universal Styling
 
 h1,
 h2,
+h3 {
+    font-family: 'niveau-grotesk', sans-serif;
+
+}
+
+h1,
+h2,
 h3,
 p {
    margin: 10px 0;
+
 }
 
 p {
@@ -67,6 +75,15 @@ header nav a {
     margin: 0 18px;
 }
 
+header nav a:hover {
+    color:hotpink;
+
+}
+
+header nav a:active {
+    color: orange;
+}
+
 /*========================
 
     Hero Styling
@@ -87,19 +104,6 @@ header nav a {
     text-align: center;
     color: white;
 }
-
-.hero-button {
-    position: absolute;
-    text-align: center;
-    top: 1000px;
-    color: #3D3C36;
-    font-weight: bold;
-    background: hotpink;
-    opacity: 80%;
-    border-radius: 5px;
-    
-}
-
 
 .welcome {
     margin: 80px;
@@ -169,6 +173,10 @@ img.about-image-1 {
     float: right;
     z-index: 5;
     margin: 10px;
+}
+
+section.about-container {
+    box-shadow: 10px 10px 10px 10px lavenderblush;
 }
 
 .about-container {

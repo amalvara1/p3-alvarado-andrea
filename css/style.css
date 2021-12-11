@@ -228,7 +228,7 @@ img.about-image-2 {
     margin: 55px auto 80px;
     text-align: center;
     background: #F9B775;
-    opacity: 75%;
+    opacity: 60%;
     border-radius: 10px;
     padding: 0 10px;
     position: relative;
@@ -260,3 +260,11 @@ label {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.submit input {
+    background: orange ;
+    padding: 10px 20px;
+    display: inline;
+    border-radius: 10px;
+}
+

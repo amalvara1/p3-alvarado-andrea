@@ -217,23 +217,6 @@ img.about-image-2 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*=========================
 
     Contact Page Styling
@@ -242,4 +225,14 @@ img.about-image-2 {
 
 .contact-header {
     background: #F9B775;
+}
+
+.contact-container {
+    margin: 55px;
+    background: #F9B775;
+    opacity: 85%;
+    border-radius: 10px;
+    padding: 0 10px;
+    position: relative;
+    text-align:center;
 }

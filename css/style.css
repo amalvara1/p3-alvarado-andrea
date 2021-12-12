@@ -268,3 +268,24 @@ label {
     border-radius: 10px;
 }
 
+
+/*==========================
+
+    Product Page Styling
+
+===========================*/
+
+
+.row1-products {
+
+    margin: 55px;
+    text-align: center;
+
+}
+
+.row2-products {
+
+    margin: 55px;
+    text-align: center;
+
+}

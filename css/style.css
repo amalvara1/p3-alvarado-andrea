@@ -276,9 +276,9 @@ label {
 ===========================*/
 
 
-row1-products,
-row2-products,
-row3-products {
+section.row1-products,
+section.row2-products,
+section.row3-products {
     margin: 55px;
     text-align: center;
 }

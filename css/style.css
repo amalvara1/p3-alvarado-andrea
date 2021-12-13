@@ -71,6 +71,7 @@ header {
 header nav {
     width: 45%;
     display: inline-block;
+    font-family: turnip, serif;
     text-align: right;
     vertical-align: top;
     position: relative;

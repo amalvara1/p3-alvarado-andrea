@@ -51,6 +51,18 @@ header nav a:hover {
 
 }
 
+footer {
+    background: #BFEA86;
+    opacity: 80%;
+    padding: 80px;
+
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+
+}
 
 </style>
 

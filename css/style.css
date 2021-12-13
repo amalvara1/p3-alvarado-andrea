@@ -123,6 +123,10 @@ header nav a:active {
     margin: 55px;
 }
 
+.welcome h1:first-child {
+    color: hotpink;
+}
+
 /*==============================
 
     Top Seller Product Section

@@ -62,6 +62,12 @@ header {
     padding: 20px 0;
 }
 
+.logo:hover {
+    width: 300px;
+    transition: 2s;
+    padding: 30px 50px;
+}
+
 header nav {
     width: 45%;
     display: inline-block;
@@ -133,6 +139,10 @@ header nav a:active {
     position: relative;
     text-align:center;
 
+}
+
+.individual-products:hover {
+    animation: movement 5s;
 }
 
 .individual-products img {
@@ -281,4 +291,24 @@ section.row2-products,
 section.row3-products {
     margin: 55px;
     text-align: center;
+}
+
+
+
+/*=========================
+
+    Keyframes animation
+
+==========================*/
+
+
+
+
+@keyframes movement {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg)
+    }
 }
